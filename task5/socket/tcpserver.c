@@ -9,7 +9,7 @@
 #include <arpa/inet.h>
 #include <sys/wait.h>
 
-#define MYPORT 3490 /* 서버 포트 */
+#define MYPORT 3490 
 #define BACKLOG 10
 #define MAXBUF 100
 
