@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 서버</title>
+</head>
+
+<body>
+    <header>
+        <h1>환영합니다!</h1>
+        <p>이 페이지는 여러분을 위한 간단한 웹 서버 테스트 페이지입니다.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>서버 정보</h2>
+            <p>이 서버는 GET 요청을 처리합니다.</p>
+        </section>
+
+        <section>
+            <h2>POST 요청 테스트</h2>
+            <form action="/cgi-bin/hello.cgi" method="POST">
+                <label for="name">이름:</label>
+                <input type="text" id="name" name="name" required>
+                <input type="submit" value="보내기">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 웹 서버 예시</p>
+    </footer>
+</body>
+
+</html>
